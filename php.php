@@ -1,6 +1,6 @@
 <?php 
 header('Content-Type: text/html; charset=utf-8');
-
+//ûûû
 require_once 'a.php';
 require_once 'b.php';
 require_once 'EmailAddress.php';
@@ -11,6 +11,13 @@ echo '<br>';
 B\A::say();
 new_name::say();
 B\A::give();
+
+class EmailAddres{
+
+	function __construct (){
+		echo 'i m new email cont';
+	}
+}
 
 use ZZZ\Validator\EmailAddress as  EmailAddress; 
 $s= new EmailAddress;
